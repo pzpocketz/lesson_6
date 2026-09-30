@@ -14,7 +14,6 @@ const props = withDefaults(defineProps<Props>(), {
   <v-btn
     :href="props.url"
     block
-    rounded="4"
     size="large"
     color="grey-darken-4"
     variant="outlined"
@@ -30,6 +29,7 @@ const props = withDefaults(defineProps<Props>(), {
 <style scoped>
 .link-button {
   border: 1px solid rgba(147, 197, 253, 0.45) !important;
+  border-radius: 8px !important;
   box-shadow: 0 8px 18px rgba(59, 130, 246, 0.08) !important;
   padding-top: 12px !important;
   padding-bottom: 12px !important;
